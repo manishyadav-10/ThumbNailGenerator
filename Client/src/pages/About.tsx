@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { Sparkles, Code, Zap, Heart, Rocket, Brain, Github, Linkedin, Mail, Globe } from 'lucide-react';
 
-import AboutImage from '../assets/AboutImage.jpg';
-import ProfilePic from '../assets/ProfilePic.jpg';
+import AboutImage from '../assets/AboutImage.jpg'
+import ProfilePic from '../assets/profilePic.jpg';
 
 
 const About = () => {
