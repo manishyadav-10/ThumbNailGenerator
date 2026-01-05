@@ -21,7 +21,7 @@ declare module 'express-session'{
 
 // add middleware
 app.use(cors({
-    origin: ["http://localhost:5173", "http://localhost:3000"],
+    origin: ["http://localhost:5173", "http://localhost:3000","https://thumb-nail-generator-client.vercel.app"],
     credentials: true,
 }));
 app.use(session({
